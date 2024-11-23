@@ -21,5 +21,6 @@
 #define EH_SYMBOL_ROTATE_RIGHT "\xEF\x8B\xB9"
 #define EH_SYMBOL_ROTATE_LEFT "\xEF\x8B\xAA"
 #define EH_SYMBOL_GLOBE "\xEF\x82\xAC"
+#define EH_SYMBOL_BIRD "\xEF\x91\xA9"
 #define EH_SYMBOL_LAYER "\xEF\x97\xBD"
 #define EH_SYMBOL_MAC "\xEF\x85\xB9"
