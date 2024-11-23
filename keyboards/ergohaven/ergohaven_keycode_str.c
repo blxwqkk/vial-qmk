@@ -365,9 +365,9 @@ const char *special_keycode_to_str(uint16_t keycode) {
             return EH_SYMBOL_LAYER EH_SYMBOL_ANGLES_LEFT;
         case QK_MACRO ... QK_MACRO_MAX:
             if (keycode == QK_MACRO_8)
-                return "M8\n" EH_SYMBOL_BIRD;
+                return "M8\n" EH_SYMBOL_HEART;
             else if (keycode == QK_MACRO_7)
-                return "M7\n" EH_SYMBOL_WHEELCHAIR;
+                return "M7\n" EH_SYMBOL_MOON;
             else if (keycode == QK_MACRO_6)
                 return "M6 " EH_SYMBOL_GAMEPAD;
             else
