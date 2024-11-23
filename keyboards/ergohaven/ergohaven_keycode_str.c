@@ -365,7 +365,7 @@ const char *special_keycode_to_str(uint16_t keycode) {
             return EH_SYMBOL_LAYER EH_SYMBOL_ANGLES_LEFT;
         case QK_MACRO ... QK_MACRO_MAX:
             if (keycode == QK_MACRO_8)
-                sprintf(buf, "M8 " EH_SYMBOL_BIRD);
+                return "M8 " EH_SYMBOL_BIRD;
             else
                 sprintf(buf, "M%d", keycode - QK_MACRO);
             return buf;
