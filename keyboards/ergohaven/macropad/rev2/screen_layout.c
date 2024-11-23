@@ -7,7 +7,7 @@ LV_FONT_DECLARE(ergohaven_symbols_20);
 LV_FONT_DECLARE(ergohaven_symbols_28);
 
 static const char *PROGMEM LAYER_NAME[] = {
-    "ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN",
+    "NUMPAD", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN",
 };
 
 const char *layer_upper_name(uint8_t layer) {
