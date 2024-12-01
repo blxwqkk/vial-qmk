@@ -27,7 +27,9 @@
 #define EH_SYMBOL_LAYER "\xEF\x97\xBD"
 #define EH_SYMBOL_MAC "\xEF\x85\xB9"
 
-#define DAN_SYMBOL_SMILE "\xEF\x97\x88"
-#define DAN_SYMBOL_WINK "\xEF\x96\x8C"
-#define DAN_SYMBOL_WALKING "\xEF\x95\x94"
-#define DAN_SYMBOL_HOUUSE "\xEE\x8E\xAF"
+#define DAN_SYMBOL_COPY "\xEF\x83\x85"
+#define DAN_SYMBOL_PASTE "\xEF\x83\xAA"
+#define DAN_SYMBOL_CUT "\xEF\x83\x84"
+#define DAN_SYMBOL_SCREENSHOT "\xEE\x83\x9A"
+#define DAN_SYMBOL_TRASH "\xEF\x87\xB8"
+#define DAN_SYMBOL_TURNLEFT "\xEE\x98\xB2"
