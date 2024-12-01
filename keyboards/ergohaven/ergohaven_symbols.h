@@ -26,3 +26,7 @@
 #define EH_SYMBOL_GAMEPAD "\xEF\x84\x9B"
 #define EH_SYMBOL_LAYER "\xEF\x97\xBD"
 #define EH_SYMBOL_MAC "\xEF\x85\xB9"
+
+#define DAN_SYMBOL_SMILE "\xEF\x97\x88"
+#define DAN_SYMBOL_WINK "\xEF\x96\x8C"
+#define DAN_SYMBOL_WALKING "\xEF\x95\x94"

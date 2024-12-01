@@ -5,6 +5,7 @@
 
 LV_FONT_DECLARE(ergohaven_symbols_20);
 LV_FONT_DECLARE(ergohaven_symbols_28);
+LV_FONT_DECLARE(danissimo_symbols);
 
 static const char *PROGMEM LAYER_NAME[] = {
     "NUMPAD", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN",
@@ -77,7 +78,7 @@ void screen_layout_init(void) {
 
         key_labels[i] = lv_label_create(obj);
         lv_obj_center(key_labels[i]);
-        lv_obj_set_style_text_font(key_labels[i], &ergohaven_symbols_20, LV_PART_MAIN);
+        lv_obj_set_style_text_font(key_labels[i], &danissimo_symbols, LV_PART_MAIN);
         lv_obj_set_style_text_align(key_labels[i], LV_TEXT_ALIGN_CENTER, 0);
         lv_label_set_text(key_labels[i], "");
 

@@ -365,11 +365,11 @@ const char *special_keycode_to_str(uint16_t keycode) {
             return EH_SYMBOL_LAYER EH_SYMBOL_ANGLES_LEFT;
         case QK_MACRO ... QK_MACRO_MAX:
             if (keycode == QK_MACRO_8)
-                return "M8\n" EH_SYMBOL_HEART;
+                return "M8\n" DAN_SYMBOL_SMILE;
             else if (keycode == QK_MACRO_7)
-                return "M7\n" EH_SYMBOL_MOON;
+                return "M7\n" DAN_SYMBOL_WINK;
             else if (keycode == QK_MACRO_6)
-                return "M6 " EH_SYMBOL_GAMEPAD;
+                return "M6 " DAN_SYMBOL_WALKING;
             else
                 sprintf(buf, "M%d", keycode - QK_MACRO);
             return buf;
