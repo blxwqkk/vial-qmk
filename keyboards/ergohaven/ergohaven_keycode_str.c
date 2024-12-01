@@ -368,6 +368,8 @@ const char *special_keycode_to_str(uint16_t keycode) {
                 return "M8\n" DAN_SYMBOL_SMILE;
             else if (keycode == QK_MACRO_7)
                 return "M7\n" DAN_SYMBOL_WINK;
+            else if (keycode == QK_MACRO_3)
+                return DAN_SYMBOL_HOUUSE;
             else if (keycode == QK_MACRO_6)
                 return "M6 " DAN_SYMBOL_WALKING;
             else
