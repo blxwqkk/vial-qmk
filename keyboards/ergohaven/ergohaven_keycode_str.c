@@ -365,13 +365,13 @@ const char *special_keycode_to_str(uint16_t keycode) {
             return EH_SYMBOL_LAYER EH_SYMBOL_ANGLES_LEFT;
         case QK_MACRO ... QK_MACRO_MAX:
             if (keycode == QK_MACRO_8)
-                return "M8\n" DAN_SYMBOL_SMILE;
+                return DAN_SYMBOL_PASTE;
             else if (keycode == QK_MACRO_7)
-                return "M7\n" DAN_SYMBOL_WINK;
-            else if (keycode == QK_MACRO_3)
-                return DAN_SYMBOL_HOUUSE;
+                return DAN_SYMBOL_COPY;
             else if (keycode == QK_MACRO_6)
-                return "M6 " DAN_SYMBOL_WALKING;
+                return DAN_SYMBOL_TURNLEFT;
+            else if (keycode == QK_MACRO_0)
+                return DAN_SYMBOL_TRASH;
             else
                 sprintf(buf, "M%d", keycode - QK_MACRO);
             return buf;
